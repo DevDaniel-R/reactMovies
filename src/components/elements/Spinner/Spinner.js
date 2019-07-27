@@ -9,4 +9,4 @@ const Spinner = () => {
   )
 }
 
-export default Speech ;
+export default Spinner ;
