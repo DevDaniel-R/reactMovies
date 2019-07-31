@@ -3,8 +3,9 @@ import './LoadMoreBtn.css';
 
 const LoadMoreBtn = (props) => {
   return (
-    <div>
-      LoadMoreBtn
+    <div className="rmdb-loadmorebtn" onclick={props.onClick}>
+    <p>{props.text}</p>
+
     </div>
     )
   }
